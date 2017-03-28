@@ -1,9 +1,9 @@
 # Zhihudaily
 
-> 使用vue2做的知乎日报
-> 使用饿了么组件element-ui做的轮播、文章列表卡、手风琴式评论页面
-> 网络库使用axios，用normalize.css覆盖浏览器默认css
-> 使用第三方[跳板](https://images.weserv.nl/)来获取图片
+## 使用vue2做的知乎日报
+- 使用饿了么组件element-ui做的轮播、文章列表卡、手风琴式评论页面
+- 网络库使用axios，用normalize.css覆盖浏览器默认css
+- 使用第三方[跳板](https://images.weserv.nl/)来获取图片
 ## Build Setup
 
 ``` bash
