@@ -1,5 +1,5 @@
 <template>
-  <div class="loadMoreNews">
+  <div class="load-more-news">
     <div class="day-delimiter" v-for="news in moreNews">
       <h2 v-if="showDateFlag">{{news.date | formatDate}}</h2>
       <div>
@@ -70,24 +70,24 @@ export default {
 </script>
 
 <style scoped>
-  .day-delimiter {
-    background-color: #303030;
-  }
+.day-delimiter {
+  background-color: #303030;
+}
 
-  img {
-    height: 100px;
-    float: right;
-    padding: 10px;
-  }
+img {
+  height: 100px;
+  float: right;
+  padding: 10px;
+}
 
-  h2 {
-    margin: 0;
-    text-align: center;
-    color: #f2f2f2;
-    font-size: 35px;
-  }
+h2 {
+  margin: 0;
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 35px;
+}
 
-  span {
-      color: black;
-  }
+span {
+    color: black;
+}
 </style>
