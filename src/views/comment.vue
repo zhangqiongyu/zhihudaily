@@ -52,6 +52,7 @@
 import navbar from '../components/navBar'
 import {fetchLongCommentsById, fetchShortCommentsById} from '../store/api'
 export default {
+  name: 'comment',
   data () {
     return {
       longComments: [],

@@ -27,6 +27,7 @@
 <script>
 import {fetchThemes} from '../store/api'
 export default {
+  name: 'navbar',
   data () {
     return {
       themes: [],

@@ -14,6 +14,7 @@ import {fetchBeforeByDate} from '../store/api'
 import listArticles from './listArticles.vue'
 
 export default {
+  name: 'loadMoreArticles',
   data () {
     return {
       moreNews: [],
