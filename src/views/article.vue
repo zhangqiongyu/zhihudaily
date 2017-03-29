@@ -69,7 +69,7 @@ export default {
 </script>
 
 <style scoped>
-@import '../styles/css/article.css';
+@import '../styles/article.css';
 
 .story-extra {
   height: 120px;
