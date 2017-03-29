@@ -1,5 +1,5 @@
 <template>
-  <div class="list-articles">
+  <div id="list-articles">
     <el-row style="background: blue">
       <div  v-for="article in listArticles">
       <router-link :to="{name: 'article', params: {id: article.id}}">

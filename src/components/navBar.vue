@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar">
+  <div id="navbar">
     <header>
       <button type="button" @click="showSidebar">
       </button>
@@ -63,7 +63,7 @@ export default {
 </script>
 
 <style scoped>
-.navbar {
+#navbar {
   width: 100%;
   height: auto;
   position: fixed;

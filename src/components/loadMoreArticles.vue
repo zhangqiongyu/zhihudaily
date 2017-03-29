@@ -1,5 +1,5 @@
 <template>
-  <div class="load-more-news">
+  <div id="load-more-news">
     <div class="day-delimiter" v-for="news in moreNews">
       <h2 v-if="showDateFlag">{{news.date | formatDate}}</h2>
       <div>

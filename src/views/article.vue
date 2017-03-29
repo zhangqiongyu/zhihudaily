@@ -1,5 +1,5 @@
 <template>
-  <div class="article">
+  <div id="article">
     <navbar :title="getTitle"></navbar>
     <div class="story-extra">
       <!--h3>{{}}</h3-->

@@ -1,5 +1,5 @@
 <template>
-  <div class="carousel">
+  <div id="carousel">
     <el-carousel :interval="4000" type="card" height="400px">
       <el-carousel-item v-for="item in carouselData"
         :style="{'background-image':'url('+ item.image.replace(/http\w{0,1}:\/\/p/g, 'https://images.weserv.nl/?url=p') +')'}">

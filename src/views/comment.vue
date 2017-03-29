@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="comment">
     <navbar :title="getTitle"></navbar>
     <div class="comment">
     <el-collapse v-model="activeName" accordion value="String(1)">
