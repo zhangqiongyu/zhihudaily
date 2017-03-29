@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import {fetchThemesById, fetchBeforeThemesById} from '../store/api'
-import {scrollTouchdown} from '../store/base'
+import {fetchThemesById, fetchBeforeThemesById} from '../utils/api'
+import {scrollTouchdown} from '../utils/base'
 import navbar from '../components/navBar'
 import listArticles from '../components/listArticles.vue'
 import loadMoreArticles from '../components/loadMoreArticles'

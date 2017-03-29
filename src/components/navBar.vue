@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import {fetchThemes} from '../store/api'
+import {fetchThemes} from '../utils/api'
 export default {
   name: 'navbar',
   data () {

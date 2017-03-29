@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import {fetchBeforeByDate} from '../store/api'
+import {fetchBeforeByDate} from '../utils/api'
 import listArticles from './listArticles.vue'
 
 export default {

@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import {fetchLatestNews} from '../store/api'
-import {scrollTouchdown} from '../store/base'
+import {fetchLatestNews} from '../utils/api'
+import {scrollTouchdown} from '../utils/base'
 import navbar from '../components/navBar'
 import carousel from '../components/carousel'
 import listArticles from '../components/listArticles.vue'

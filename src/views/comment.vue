@@ -50,7 +50,7 @@
 
 <script>
 import navbar from '../components/navBar'
-import {fetchLongCommentsById, fetchShortCommentsById} from '../store/api'
+import {fetchLongCommentsById, fetchShortCommentsById} from '../utils/api'
 export default {
   name: 'comment',
   data () {

@@ -24,7 +24,7 @@
 
 <script>
 import navbar from '../components/navBar'
-import {fetchNewsById, fetchExtraById} from '../store/api'
+import {fetchNewsById, fetchExtraById} from '../utils/api'
 export default {
   name: 'article',
   data () {
@@ -69,7 +69,7 @@ export default {
 </script>
 
 <style scoped>
-@import '../assets/css/article.css';
+@import '../styles/css/article.css';
 
 .story-extra {
   height: 120px;
